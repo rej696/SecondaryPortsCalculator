@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Secondary Ports Calculator</string>
+
+    <string name="inputDHWS">Secondary Port Difference MHWS</string>
+    <string name="inputDHWN">Secondary Port Difference MHWN</string>
+    <string name="inputDLWS">Secondary Port Difference MLWS</string>
+    <string name="inputDLWN">Secondary Port Difference MLWN</string>
+    <string name="inputCurHW">Current Standard Port High Water</string>
+    <string name="inputCurLW">Current Standard Port Low Water</string>
+
+    <string name="LW_Output">Current Secondary Port Low Water</string>
+    <string name="HW_Output">Current Secondary Port High Water</string>
+
+    <string name="button_calculate">Calculate</string>
+    <string name="button_go_to_add_to_database">Add New Secondary Port</string>
+
+    <string name="button_return_to_main_activity">Return</string>
+    <string name="button_add_to_database">Add</string>
+
+
+
+</resources>

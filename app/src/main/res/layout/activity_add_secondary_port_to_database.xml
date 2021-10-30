@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddSecondaryPortToDatabase">
+
+    <Button
+        android:id="@+id/button_find_in_database"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="findSecondaryPort"
+        android:text="@string/button_find_in_database"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="111dp" />
+
+    <Button
+        android:id="@+id/button_add_to_database"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="addSecondaryPort"
+        andoid:text="@string/button_add_to_database"
+        tools:layout_editor_absoluteX="126dp"
+        tools:layout_editor_absoluteY="341dp" />
+
+    <Button
+        android:id="@+id/button_return_to_main_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_return_to_main_activity"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="667dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
